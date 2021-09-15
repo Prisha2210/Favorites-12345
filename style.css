@@ -1,0 +1,82 @@
+
+body{
+  text-align:center;
+  background: linear-gradient(90deg, rgba(255,0,140,1) 0%, rgba(184,0,209,1) 44%, rgba(0,239,255,1) 100%);
+}
+h1{
+  text-shadow:2px 2px #F8BBDO;
+  font-size:30px;
+}
+#about{
+  padding:20px;
+  font-size:18px;
+}
+img{
+  border-radius:50%;
+  width:100px;
+}
+p{
+  font-size:20px;
+  font-family:cursive;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    right:30px;
+    z-index: 10;
+    cursor:pointer;
+}
+#welcome {
+    height:100px;
+    color :navy;
+    left:0;
+    top:0;
+    bottom: 0;
+    right:0;
+    background: linear-gradient(90deg, rgba(231,156,255,1) 0%, rgba(104,182,255,1) 25%, rgba(255,173,229,1) 52%, rgba(104,182,255,1) 77%, rgba(231,156,255,1) 100%);
+    display: table;
+    width:100%;
+    height:30%;
+    z-index:9;
+}
+
+.links {
+    float:left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:fantasy;
+    font-size:20px;
+}
+
+.links:hover {
+    background-color: plum;
+}
+#about {
+    background: linear-gradient(180deg, rgba(255,216,159,1) 0%, rgba(255,0,0,1) 100%);
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#haif {
+background: linear-gradient(98deg, rgba(255,255,255,1) 0%, rgba(74,42,255,1) 100%);
+    font-family:cursive;
+    font-size: 30px;
+}
+
+br {
+    color: navy;
+}
+
+#favorites {
+  background: linear-gradient(333deg, rgba(156,214,255,1) 0%, rgba(144,255,144,1) 100%);  
+}
+
+#inspiration {
+  background: linear-gradient(270deg, rgba(255,254,0,1) 0%, rgba(255,106,245,1) 100%);
+}
